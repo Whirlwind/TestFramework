@@ -1,0 +1,30 @@
+{
+  "name": "TestFramework",
+  "version": "1.0",
+  "license": "MIT",
+  "homepage": "http://git.intra.ffan.com/TestFramework",
+  "authors": {
+    "Whirlwind": "Whirlwind@wanda.cn"
+  },
+  "summary": "<#描述#>",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "ssh://gerrit/TestFramework",
+    "tag": "1.0"
+  },
+  "prefix_header_file": "TestFramework/Supporting Files/PrefixHeader.pch",
+  "pod_target_xcconfig": {
+    "__TARGET_NAME__": "\"$(PRODUCT_NAME)\""
+  },
+  "source_files": "TestFramework/**/*.{h,m,c,mm}",
+  "resources": [
+    "TestFramework/**/*.{png,jpg,xib,bundle}"
+  ],
+  "dependencies": {
+    "libextobjc": [
+
+    ]
+  }
+}

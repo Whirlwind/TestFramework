@@ -13,5 +13,5 @@ Pod::Spec.new do |s|
   s.source_files = 'TestFramework/**/*.{h,m,c,mm}'
   s.resources = ["TestFramework/**/*.{png,jpg,xib,bundle}"]
   
-  # s.dependency '<#WDWorkFlow#>'
+  s.dependency 'libextobjc'
 end
